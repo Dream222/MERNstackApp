@@ -28,6 +28,7 @@ npm install
 
 You will need the following resources properly installed on the machine.
 
+
 * [Git](https://git-scm.com)
 * [Node.js](https://nodejs.org) (with NPM)
 * [MongoDB](https://www.mongodb.com)
@@ -45,6 +46,14 @@ npm run start_react
 ```
 
 You can check at http://localhost:3000  
+
+
+### Login
+![image](screenshots/login.png)
+
+### Chat
+![image](screenshots/chat.png)
+
 
 ### You need MongoDB. Here's an example of installing MongoDB on mac os X  
 
