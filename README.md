@@ -1,19 +1,36 @@
-## Example of basic account system on React and MongoDB
-This is an example web application written in React to demonstrate basic account feature with MongoDB.
+## Example of basic team collaboration system on MeanStack
+
+This is an team chat application for team collaboration written in MeanStack.   
 You can create an account and sign in with email or tokens.  
-I borrowed ( ported ) most of code from Meteor's account package which I love.
-I ported Meteor's account package because I could not find good examples to develop simple signup/signin system without using Meteor when I start using React
 
 ## Install  
 ```
-git https://github.com/kouohhashi/react_mongo_accounts.git
-cd react_mongo_accounts
+git https://github.com/Dream222/MERNstackApp.git
+cd MERNstackApp
 npm install
 ```
 
-## modify database name on routes/api.js  
+## Backend:
+	
+* Node.js
+* Express.js
+* MongoDB
+* bcrypt
+* Socket
 
-## Usage  
+## Frontend:
+
+* React.js
+* Redux 
+* Semantic UI
+
+## Prerequisites
+
+You will need the following resources properly installed on the machine.
+
+* [Git](https://git-scm.com)
+* [Node.js](https://nodejs.org) (with NPM)
+* [MongoDB](https://www.mongodb.com)
 
 ### Start API server  
 API server is going to start on port 4002
@@ -28,8 +45,6 @@ npm run start_react
 ```
 
 You can check at http://localhost:3000  
-
-## Requirement  
 
 ### You need MongoDB. Here's an example of installing MongoDB on mac os X  
 
